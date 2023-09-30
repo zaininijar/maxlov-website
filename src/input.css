@@ -21,6 +21,9 @@
   .__card-product {
     @apply bg-[#F8FAFB] flex flex-col justify-between rounded-3xl px-8 pb-8 pt-16 gap-12;
   }
+  .__subhead-1 {
+    @apply text-[#151515] font-medium text-[22px] tracking-[-0.22px] leading-[26px];
+  }
   .__subhead-2 {
     @apply text-[#A6A6A6] font-medium text-[18px] tracking-[-0.18px] leading-[28px];
   }

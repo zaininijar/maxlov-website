@@ -650,6 +650,15 @@ video {
   padding-top: 4rem;
 }
 
+.__subhead-1 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.22px;
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
 .__subhead-2 {
   font-size: 18px;
   font-weight: 500;
@@ -732,6 +741,10 @@ video {
 
 .top-\[-32px\] {
   top: -32px;
+}
+
+.top-\[-23px\] {
+  top: -23px;
 }
 
 .z-10 {
@@ -927,6 +940,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-\[90\%\] {
@@ -1236,6 +1253,11 @@ video {
 .py-\[220px\] {
   padding-top: 220px;
   padding-bottom: 220px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .pb-28 {
