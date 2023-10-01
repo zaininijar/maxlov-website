@@ -27,14 +27,18 @@
           />
         </a>
         <div class="lg:hidden">
-          <button class="navbar-burger flex items-center text-[#378375] p-3">
+          <button class="navbar-burger flex items-center">
             <svg
-              class="block h-4 w-4 fill-current"
-              viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
             >
-              <title>Mobile menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              <path
+                d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                fill="black"
+              />
             </svg>
           </button>
         </div>
@@ -111,18 +115,22 @@
       </div>
     </header>
     <main>
-      <section class="px-20 relative overflow-hidden py-[220px] bg-[#F8FAFB]">
-        <div class="w-[737px]">
-          <h1 class="text-[#151515] text-6xl font-bold leading-[80px]">
+      <section
+        class="md:px-20 px-4 relative overflow-hidden md:py-[220px] pt-[220px] pb-[50px] bg-[#F8FAFB] flex"
+      >
+        <div class="w-[737px] relative z-10 md:mt-0 mt-[160px]">
+          <h1 class="__heading-2">
             RAIH KESUKSESAN FINANSIAL ANDA BERSAMA ALN CITRA NETWORK
           </h1>
-          <h6 class="__subhead-2 mt-8">
+          <h6 class="__subhead-2 md:mt-8 mt-3">
             Dengan pengalaman dan keahlian yang telah teruji, kami siap
             memberikan Anda panduan, strategi, dan solusi finansial terbaik.
           </h6>
-          <div class="flex gap-6 mt-10">
-            <div class="bg-[#1D5884] border-2 p-3 rounded-[12px]">
-              <div class="flex text-white gap-3">
+          <div class="flex flex-wrap md:gap-6 gap-4 md:mt-10 mt-8">
+            <div
+              class="bg-[#1D5884] border-2 p-3 rounded-[12px] md:w-auto w-full"
+            >
+              <div class="flex text-white gap-3 justify-center">
                 Bergabung Sekarang
                 <svg
                   width="24"
@@ -154,77 +162,43 @@
                 </svg>
               </div>
             </div>
-            <a href="#" class="border-2 p-3 rounded-[12px]">
+            <a
+              href="#"
+              class="border-2 p-3 rounded-[12px] md:w-auto w-full text-center"
+            >
               Pelajari terlebih dahulu
             </a>
           </div>
         </div>
         <div
-          class="bg-[#E4F4FF] h-[900px] w-[900px] rounded-full absolute right-[-394px] bottom-[-336px]"
+          class="bg-[#E4F4FF] md:h-[900px] md:w-[900px] w-[372.727px] h-[372.727px] rounded-full absolute md:left-[58%] left-[40%] md:top-[35%] top-[18%]"
         >
           <div class="w-full h-full relative">
             <img
-              class="absolute h-[240px] top-[-150px] right-[440px] rotate-[-15deg]"
+              class="relative md:h-[240px] h-[99px] rotate-[-15deg] top-[-16%] left-[40%]"
               src="../../images/product/product-1.png"
               alt=""
             />
             <img
-              class="absolute h-[240px] left-[70px] top-[-30px] rotate-[-15deg]"
+              class="relative md:h-[240px] h-[99px] rotate-[-15deg] top-[-32%] left-[10%]"
               src="../../images/product/product-2.png"
               alt=""
             />
             <img
-              class="absolute h-[240px] left-[-100px] bottom-[350px] rotate-[-15deg]"
+              class="relative md:h-[240px] h-[99px] rotate-[-15deg] top-[-20%] left-[-10%]"
               src="../../images/product/product-3.png"
               alt=""
             />
           </div>
         </div>
       </section>
-      <section class="pt-40 pb-28 px-20">
+      <section class="md:pt-40 pt-[50px pb-0 md:pb-28 md:px-20 px-4">
         <h2 class="text-center __heading-3">
           Apa saja sih kelebihan dari ALN Citra Network?
         </h2>
-        <div class="flex gap-6 mt-12 min-h-[272px]">
-          <div class="__normal-card self-end">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 48 48"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M38.2899 2.97544V8.55759H34.3381V2.97544H32.148C31.9544 2.97235 31.7698 2.89327 31.6339 2.75526C31.4981 2.61724 31.422 2.43136 31.422 2.23772C31.422 2.04408 31.4981 1.85819 31.6339 1.72018C31.7698 1.58217 31.9544 1.50309 32.148 1.5H40.48C40.6103 1.49994 40.7384 1.53445 40.8511 1.60002C40.9637 1.66558 41.057 1.75985 41.1214 1.87322L43.3056 5.17406C43.4108 5.33685 43.4476 5.5346 43.408 5.72436C43.3683 5.91412 43.2554 6.08058 43.0938 6.18759C42.9321 6.2946 42.7348 6.33352 42.5446 6.29591C42.3544 6.25829 42.1868 6.14718 42.078 5.98669L40.0855 2.97544H38.2899ZM4.61627 38.0694C4.40825 38.0375 4.21733 37.9357 4.07503 37.7806C3.93272 37.6256 3.84754 37.4267 3.83355 37.2167L2.02558 10.5442C2.01182 10.3541 2.0375 10.1632 2.101 9.98352C2.1645 9.80381 2.26445 9.63915 2.39459 9.49989C2.52473 9.36062 2.68224 9.24975 2.85725 9.17423C3.03225 9.09871 3.22098 9.06017 3.41158 9.06103H15.0066C15.8147 9.06103 16.4458 9.73491 16.3928 10.5413L14.6412 37.2147C14.6277 37.4251 14.5427 37.6245 14.4003 37.7799C14.258 37.9354 14.0668 38.0375 13.8584 38.0694H4.61627ZM4.91318 12.5773H13.5049C13.6018 12.5773 13.6977 12.5582 13.7872 12.5212C13.8767 12.4841 13.958 12.4297 14.0265 12.3612C14.095 12.2927 14.1494 12.2114 14.1865 12.1219C14.2235 12.0324 14.2426 11.9365 14.2426 11.8396C14.2426 11.7427 14.2235 11.6468 14.1865 11.5573C14.1494 11.4678 14.095 11.3865 14.0265 11.3179C13.958 11.2494 13.8767 11.1951 13.7872 11.158C13.6977 11.121 13.6018 11.1019 13.5049 11.1019H4.91318C4.8163 11.1019 4.72037 11.121 4.63086 11.158C4.54136 11.1951 4.46003 11.2494 4.39153 11.3179C4.32303 11.3865 4.26869 11.4678 4.23161 11.5573C4.19454 11.6468 4.17546 11.7427 4.17546 11.8396C4.17546 11.9365 4.19454 12.0324 4.23161 12.1219C4.26869 12.2114 4.32303 12.2927 4.39153 12.3612C4.46003 12.4297 4.54136 12.4841 4.63086 12.5212C4.72037 12.5582 4.8163 12.5773 4.91318 12.5773ZM9.20908 16.1319C7.70496 16.1319 6.48564 19.4624 6.48564 23.5706C6.48564 27.6789 7.70496 31.0093 9.20908 31.0093C10.7132 31.0093 11.9325 27.6788 11.9325 23.5706C11.9325 19.4624 10.7132 16.1319 9.20908 16.1319ZM18.9982 25.5129H26.235C26.9644 25.5129 27.5613 26.1098 27.5613 26.8392V28.5679C27.5613 29.2973 26.9645 29.8942 26.235 29.8942H18.9982C18.2687 29.8942 17.6719 29.2973 17.6719 28.5679V26.8392C17.6719 26.1098 18.2687 25.5129 18.9982 25.5129ZM22.57 18.038C23.6921 18.038 24.6082 18.8318 24.6082 19.9829V24.0375H20.6249V19.9829C20.6249 18.9117 21.4987 18.038 22.57 18.038ZM26.6712 31.3352C27.7238 32.0982 28.4866 32.9337 28.4866 34.5278V44.1554C28.4866 45.4449 27.4315 46.5 26.1421 46.5H19.0911C17.8015 46.5 16.7466 45.4449 16.7466 44.1554V34.5278C16.7466 32.9337 17.5094 32.0982 18.562 31.3352C18.7062 31.358 18.8521 31.3695 18.9982 31.3695H26.2349C26.3832 31.3695 26.529 31.3577 26.6712 31.3352ZM28.5027 18.2115C27.5922 18.2115 26.8316 18.841 26.6785 19.6652H42.706C43.1267 19.6652 43.4679 19.9955 43.4679 20.4029C43.4679 20.8103 43.1267 21.1406 42.706 21.1406H26.6504V24.0687C27.9961 24.271 29.0365 25.4394 29.0365 26.8393V28.568C29.0365 29.3738 28.6916 30.103 28.1422 30.6154C29.3476 31.6533 29.962 32.8832 29.962 34.5279V40.041H45.9775V19.9708C45.9775 19.0018 45.1454 18.2115 44.1252 18.2115H28.5027ZM45.9775 41.5163V42.2095C45.9775 42.7909 45.4783 43.2652 44.8661 43.2652H29.962V41.5163H45.9775ZM36.6516 25.6666C37.0162 26.2265 37.4732 27.0809 37.9192 27.9323C38.5694 29.1736 39.6234 30.87 39.5474 32.3216C39.4402 34.3696 37.906 35.9283 36.121 35.8029C34.3358 35.6777 32.9755 33.9158 33.0827 31.8678C33.157 30.4478 34.2476 29.09 34.9934 27.9905C35.5751 27.1327 36.1882 26.2232 36.6516 25.6666ZM30.1452 14.2891H42.4827C42.6049 14.2893 42.7221 14.338 42.8085 14.4244C42.8949 14.5108 42.9436 14.6279 42.9438 14.7502V16.7361H29.6842V14.7502C29.6844 14.6279 29.733 14.5108 29.8195 14.4244C29.9059 14.338 30.023 14.2893 30.1452 14.2891ZM31.689 10.033H40.939C41.2437 10.033 41.4923 10.2816 41.4923 10.5863V12.8138H31.1357V10.5863C31.136 10.4397 31.1944 10.2991 31.2981 10.1954C31.4018 10.0917 31.5424 10.0333 31.689 10.033ZM12.7904 39.5449V40.88C12.7904 41.1732 12.5505 41.4131 12.2574 41.4131H6.1608C5.86755 41.4131 5.62764 41.1732 5.62764 40.88V39.5449H12.7904Z"
-                fill="#1D5884"
-              />
-            </svg>
-            <p class="text-[#1D5884] text-[18px] font-medium">
-              Produk-produk yang dijual berkualitas tinggi dan telah lolos uji.
-            </p>
-          </div>
-          <div class="__normal-card bg-[#1D5884] text-white self-start">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 48 48"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22.346 17.6913L20.3354 16.9174V13.6327L22.3463 12.8587C22.6015 11.7873 23.0259 10.7634 23.6037 9.82572L22.7285 7.85518L25.0512 5.53253L27.0219 6.40778C27.9595 5.83012 28.9833 5.40569 30.0546 5.1505L30.8287 3.13947H34.1134L34.8875 5.1505C35.9589 5.40569 36.9826 5.83012 37.9203 6.40778L39.891 5.53253L42.2136 7.85518L41.3387 9.82525C41.9165 10.7631 42.341 11.7872 42.5962 12.8588L44.6069 13.6327V16.9174L44.3019 17.0348L43.7019 16.4348L42.1314 17.1323C41.8232 16.982 41.506 16.8507 41.1816 16.7392L40.5642 15.1351H39.0389C38.9644 11.5714 36.0526 8.7055 32.4711 8.7055C28.8429 8.7055 25.9016 11.6468 25.9016 15.275C25.9016 17.2084 26.7368 18.9466 28.0661 20.1487C28.6674 18.0841 30.6233 16.7197 32.7655 16.8554L30.1879 19.433L30.8856 21.0039C30.7354 21.312 30.6042 21.629 30.4928 21.9531L28.8883 22.5707V25.0481C28.2375 24.8093 27.6123 24.5058 27.022 24.1423L25.0513 25.0175L22.7285 22.6949L23.6036 20.7248C23.0257 19.787 22.6012 18.763 22.346 17.6913ZM45.1645 26.2952C44.9955 27.0067 44.7141 27.6867 44.3309 28.3095L44.9114 29.6164L43.3696 31.1582L42.0622 30.5776C41.4396 30.9606 40.7598 31.242 40.0486 31.4109L39.5344 32.7467L37.3538 32.7468L36.8399 31.4114C36.1284 31.2424 35.4485 30.961 34.8257 30.5777L33.5187 31.1582L31.9769 29.6164L32.5575 28.3092C32.1743 27.6865 31.893 27.0067 31.724 26.2953L30.3883 25.7812V23.6007L31.7241 23.0865C31.8931 22.3752 32.1745 21.6954 32.5576 21.0728L31.977 19.7655L33.5188 18.2237L34.8261 18.8042C35.4488 18.4212 36.1285 18.1399 36.8398 17.9709L37.354 16.635H39.5345L40.0486 17.9704C40.76 18.1394 41.44 18.4208 42.0628 18.8041L43.3698 18.2236L44.9116 19.7654L44.3309 21.0727C44.7139 21.6954 44.9953 22.3751 45.1643 23.0864L46.5 23.6007V25.7812L45.1645 26.2952ZM41.5277 21.6074C39.8245 19.9042 37.0637 19.9042 35.3604 21.6074C33.6573 23.3105 33.6573 26.0714 35.3604 27.7746C37.0636 29.4778 39.8245 29.4778 41.5276 27.7746C43.2308 26.0714 43.2308 23.3105 41.5277 21.6074ZM35.7064 32.6426C35.4314 32.548 35.1614 32.4392 34.8976 32.3166L32.2987 33.8303C30.938 34.6227 29.4374 34.8631 27.8892 34.6026C25.4988 34.2138 23.267 33.5012 20.9442 32.8788C20.7474 32.8243 20.5801 32.6942 20.4787 32.5169C20.3773 32.3396 20.35 32.1295 20.4027 31.9322C20.4555 31.7349 20.5839 31.5664 20.7603 31.4633C20.9366 31.3602 21.1464 31.3309 21.3442 31.3818C23.2351 31.8883 25.1092 32.4973 27.0261 32.8936C27.9998 33.0127 28.8033 32.7055 29.0734 31.697C29.3186 30.782 28.7416 29.9198 27.8774 29.6204C25.2517 29.1397 22.7034 28.2184 20.6996 27.494C17.7953 26.4441 17.0188 26.2016 14.1556 27.8592L7.63582 31.6341L11.9649 39.2833L13.7177 38.2713C13.8946 38.1694 14.1047 38.1419 14.3019 38.1948L25.8108 41.2762C27.2614 41.665 28.6335 41.4893 29.9161 40.6998C33.4104 38.5487 36.9051 36.3978 40.3997 34.2467L36.3238 34.2468L35.7064 32.6426ZM12.1253 42.708C12.2634 42.9526 12.1738 43.269 11.9298 43.4072C11.1315 43.8728 10.252 44.3109 9.47622 44.7958C9.23154 44.9339 8.91513 44.8442 8.77704 44.6002L1.56513 31.8572C1.42685 31.6128 1.51657 31.2956 1.76041 31.1576L4.21394 29.769C4.45863 29.6309 4.77504 29.7205 4.91313 29.9645L12.1253 42.708ZM4.9255 32.2328C4.90887 32.119 4.86999 32.0096 4.81107 31.9108C4.75215 31.812 4.67435 31.7258 4.58211 31.6571C4.48988 31.5884 4.38501 31.5386 4.2735 31.5104C4.16199 31.4822 4.04603 31.4763 3.93222 31.4929C3.76079 31.518 3.60064 31.5933 3.47202 31.7094C3.3434 31.8254 3.25209 31.977 3.20963 32.145C3.16718 32.313 3.17548 32.4897 3.2335 32.653C3.29152 32.8162 3.39665 32.9586 3.53559 33.0621C3.67453 33.1656 3.84104 33.2255 4.01406 33.2344C4.18708 33.2433 4.35884 33.2006 4.50762 33.1118C4.6564 33.0231 4.77551 32.8922 4.8499 32.7357C4.92428 32.5792 4.95059 32.4042 4.9255 32.2328ZM30.1517 13.5891C30.1517 14.8701 31.1901 15.9087 32.4712 15.9087C33.7523 15.9087 34.7908 14.8702 34.7908 13.5891C34.7908 12.3081 33.7523 11.2696 32.4712 11.2696C31.1901 11.2696 30.1517 12.308 30.1517 13.5891Z"
-                fill="white"
-              />
-            </svg>
-            <p class="text-[18px] font-medium">
-              Dibekali dengan Support System yang lengkap mulai dari Training
-              Mitra, Leadership Training hingga mengadakan Seminar Sukses
-            </p>
-          </div>
+        <div
+          class="flex flex-wrap md:flex-nowrap md:gap-6 gap-4 md:mt-12 mt-8 min-h-[272px]"
+        >
           <div class="__normal-card self-end">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -246,25 +220,101 @@
                 fill="#1D5884"
               />
             </svg>
-            <p class="text-[#1D5884] text-[18px] font-medium">
+            <p class="text-[#1D5884] text-[16px] md:text-[18px] font-medium">
               Perusahaan dengan legalitas lengkap dan bersertifikasi
+            </p>
+          </div>
+          <div class="__normal-card bg-[#1D5884] text-white self-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M22.346 17.6913L20.3354 16.9174V13.6327L22.3463 12.8587C22.6015 11.7873 23.0259 10.7634 23.6037 9.82572L22.7285 7.85518L25.0512 5.53253L27.0219 6.40778C27.9595 5.83012 28.9833 5.40569 30.0546 5.1505L30.8287 3.13947H34.1134L34.8875 5.1505C35.9589 5.40569 36.9826 5.83012 37.9203 6.40778L39.891 5.53253L42.2136 7.85518L41.3387 9.82525C41.9165 10.7631 42.341 11.7872 42.5962 12.8588L44.6069 13.6327V16.9174L44.3019 17.0348L43.7019 16.4348L42.1314 17.1323C41.8232 16.982 41.506 16.8507 41.1816 16.7392L40.5642 15.1351H39.0389C38.9644 11.5714 36.0526 8.7055 32.4711 8.7055C28.8429 8.7055 25.9016 11.6468 25.9016 15.275C25.9016 17.2084 26.7368 18.9466 28.0661 20.1487C28.6674 18.0841 30.6233 16.7197 32.7655 16.8554L30.1879 19.433L30.8856 21.0039C30.7354 21.312 30.6042 21.629 30.4928 21.9531L28.8883 22.5707V25.0481C28.2375 24.8093 27.6123 24.5058 27.022 24.1423L25.0513 25.0175L22.7285 22.6949L23.6036 20.7248C23.0257 19.787 22.6012 18.763 22.346 17.6913ZM45.1645 26.2952C44.9955 27.0067 44.7141 27.6867 44.3309 28.3095L44.9114 29.6164L43.3696 31.1582L42.0622 30.5776C41.4396 30.9606 40.7598 31.242 40.0486 31.4109L39.5344 32.7467L37.3538 32.7468L36.8399 31.4114C36.1284 31.2424 35.4485 30.961 34.8257 30.5777L33.5187 31.1582L31.9769 29.6164L32.5575 28.3092C32.1743 27.6865 31.893 27.0067 31.724 26.2953L30.3883 25.7812V23.6007L31.7241 23.0865C31.8931 22.3752 32.1745 21.6954 32.5576 21.0728L31.977 19.7655L33.5188 18.2237L34.8261 18.8042C35.4488 18.4212 36.1285 18.1399 36.8398 17.9709L37.354 16.635H39.5345L40.0486 17.9704C40.76 18.1394 41.44 18.4208 42.0628 18.8041L43.3698 18.2236L44.9116 19.7654L44.3309 21.0727C44.7139 21.6954 44.9953 22.3751 45.1643 23.0864L46.5 23.6007V25.7812L45.1645 26.2952ZM41.5277 21.6074C39.8245 19.9042 37.0637 19.9042 35.3604 21.6074C33.6573 23.3105 33.6573 26.0714 35.3604 27.7746C37.0636 29.4778 39.8245 29.4778 41.5276 27.7746C43.2308 26.0714 43.2308 23.3105 41.5277 21.6074ZM35.7064 32.6426C35.4314 32.548 35.1614 32.4392 34.8976 32.3166L32.2987 33.8303C30.938 34.6227 29.4374 34.8631 27.8892 34.6026C25.4988 34.2138 23.267 33.5012 20.9442 32.8788C20.7474 32.8243 20.5801 32.6942 20.4787 32.5169C20.3773 32.3396 20.35 32.1295 20.4027 31.9322C20.4555 31.7349 20.5839 31.5664 20.7603 31.4633C20.9366 31.3602 21.1464 31.3309 21.3442 31.3818C23.2351 31.8883 25.1092 32.4973 27.0261 32.8936C27.9998 33.0127 28.8033 32.7055 29.0734 31.697C29.3186 30.782 28.7416 29.9198 27.8774 29.6204C25.2517 29.1397 22.7034 28.2184 20.6996 27.494C17.7953 26.4441 17.0188 26.2016 14.1556 27.8592L7.63582 31.6341L11.9649 39.2833L13.7177 38.2713C13.8946 38.1694 14.1047 38.1419 14.3019 38.1948L25.8108 41.2762C27.2614 41.665 28.6335 41.4893 29.9161 40.6998C33.4104 38.5487 36.9051 36.3978 40.3997 34.2467L36.3238 34.2468L35.7064 32.6426ZM12.1253 42.708C12.2634 42.9526 12.1738 43.269 11.9298 43.4072C11.1315 43.8728 10.252 44.3109 9.47622 44.7958C9.23154 44.9339 8.91513 44.8442 8.77704 44.6002L1.56513 31.8572C1.42685 31.6128 1.51657 31.2956 1.76041 31.1576L4.21394 29.769C4.45863 29.6309 4.77504 29.7205 4.91313 29.9645L12.1253 42.708ZM4.9255 32.2328C4.90887 32.119 4.86999 32.0096 4.81107 31.9108C4.75215 31.812 4.67435 31.7258 4.58211 31.6571C4.48988 31.5884 4.38501 31.5386 4.2735 31.5104C4.16199 31.4822 4.04603 31.4763 3.93222 31.4929C3.76079 31.518 3.60064 31.5933 3.47202 31.7094C3.3434 31.8254 3.25209 31.977 3.20963 32.145C3.16718 32.313 3.17548 32.4897 3.2335 32.653C3.29152 32.8162 3.39665 32.9586 3.53559 33.0621C3.67453 33.1656 3.84104 33.2255 4.01406 33.2344C4.18708 33.2433 4.35884 33.2006 4.50762 33.1118C4.6564 33.0231 4.77551 32.8922 4.8499 32.7357C4.92428 32.5792 4.95059 32.4042 4.9255 32.2328ZM30.1517 13.5891C30.1517 14.8701 31.1901 15.9087 32.4712 15.9087C33.7523 15.9087 34.7908 14.8702 34.7908 13.5891C34.7908 12.3081 33.7523 11.2696 32.4712 11.2696C31.1901 11.2696 30.1517 12.308 30.1517 13.5891Z"
+                fill="white"
+              />
+            </svg>
+            <p class="text-[16px] md:text-[18px] font-medium">
+              Dibekali dengan Support System yang lengkap mulai dari Training
+              Mitra, Leadership Training hingga mengadakan Seminar Sukses
+            </p>
+          </div>
+          <div class="__normal-card self-end">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M38.2899 2.97544V8.55759H34.3381V2.97544H32.148C31.9544 2.97235 31.7698 2.89327 31.6339 2.75526C31.4981 2.61724 31.422 2.43136 31.422 2.23772C31.422 2.04408 31.4981 1.85819 31.6339 1.72018C31.7698 1.58217 31.9544 1.50309 32.148 1.5H40.48C40.6103 1.49994 40.7384 1.53445 40.8511 1.60002C40.9637 1.66558 41.057 1.75985 41.1214 1.87322L43.3056 5.17406C43.4108 5.33685 43.4476 5.5346 43.408 5.72436C43.3683 5.91412 43.2554 6.08058 43.0938 6.18759C42.9321 6.2946 42.7348 6.33352 42.5446 6.29591C42.3544 6.25829 42.1868 6.14718 42.078 5.98669L40.0855 2.97544H38.2899ZM4.61627 38.0694C4.40825 38.0375 4.21733 37.9357 4.07503 37.7806C3.93272 37.6256 3.84754 37.4267 3.83355 37.2167L2.02558 10.5442C2.01182 10.3541 2.0375 10.1632 2.101 9.98352C2.1645 9.80381 2.26445 9.63915 2.39459 9.49989C2.52473 9.36062 2.68224 9.24975 2.85725 9.17423C3.03225 9.09871 3.22098 9.06017 3.41158 9.06103H15.0066C15.8147 9.06103 16.4458 9.73491 16.3928 10.5413L14.6412 37.2147C14.6277 37.4251 14.5427 37.6245 14.4003 37.7799C14.258 37.9354 14.0668 38.0375 13.8584 38.0694H4.61627ZM4.91318 12.5773H13.5049C13.6018 12.5773 13.6977 12.5582 13.7872 12.5212C13.8767 12.4841 13.958 12.4297 14.0265 12.3612C14.095 12.2927 14.1494 12.2114 14.1865 12.1219C14.2235 12.0324 14.2426 11.9365 14.2426 11.8396C14.2426 11.7427 14.2235 11.6468 14.1865 11.5573C14.1494 11.4678 14.095 11.3865 14.0265 11.3179C13.958 11.2494 13.8767 11.1951 13.7872 11.158C13.6977 11.121 13.6018 11.1019 13.5049 11.1019H4.91318C4.8163 11.1019 4.72037 11.121 4.63086 11.158C4.54136 11.1951 4.46003 11.2494 4.39153 11.3179C4.32303 11.3865 4.26869 11.4678 4.23161 11.5573C4.19454 11.6468 4.17546 11.7427 4.17546 11.8396C4.17546 11.9365 4.19454 12.0324 4.23161 12.1219C4.26869 12.2114 4.32303 12.2927 4.39153 12.3612C4.46003 12.4297 4.54136 12.4841 4.63086 12.5212C4.72037 12.5582 4.8163 12.5773 4.91318 12.5773ZM9.20908 16.1319C7.70496 16.1319 6.48564 19.4624 6.48564 23.5706C6.48564 27.6789 7.70496 31.0093 9.20908 31.0093C10.7132 31.0093 11.9325 27.6788 11.9325 23.5706C11.9325 19.4624 10.7132 16.1319 9.20908 16.1319ZM18.9982 25.5129H26.235C26.9644 25.5129 27.5613 26.1098 27.5613 26.8392V28.5679C27.5613 29.2973 26.9645 29.8942 26.235 29.8942H18.9982C18.2687 29.8942 17.6719 29.2973 17.6719 28.5679V26.8392C17.6719 26.1098 18.2687 25.5129 18.9982 25.5129ZM22.57 18.038C23.6921 18.038 24.6082 18.8318 24.6082 19.9829V24.0375H20.6249V19.9829C20.6249 18.9117 21.4987 18.038 22.57 18.038ZM26.6712 31.3352C27.7238 32.0982 28.4866 32.9337 28.4866 34.5278V44.1554C28.4866 45.4449 27.4315 46.5 26.1421 46.5H19.0911C17.8015 46.5 16.7466 45.4449 16.7466 44.1554V34.5278C16.7466 32.9337 17.5094 32.0982 18.562 31.3352C18.7062 31.358 18.8521 31.3695 18.9982 31.3695H26.2349C26.3832 31.3695 26.529 31.3577 26.6712 31.3352ZM28.5027 18.2115C27.5922 18.2115 26.8316 18.841 26.6785 19.6652H42.706C43.1267 19.6652 43.4679 19.9955 43.4679 20.4029C43.4679 20.8103 43.1267 21.1406 42.706 21.1406H26.6504V24.0687C27.9961 24.271 29.0365 25.4394 29.0365 26.8393V28.568C29.0365 29.3738 28.6916 30.103 28.1422 30.6154C29.3476 31.6533 29.962 32.8832 29.962 34.5279V40.041H45.9775V19.9708C45.9775 19.0018 45.1454 18.2115 44.1252 18.2115H28.5027ZM45.9775 41.5163V42.2095C45.9775 42.7909 45.4783 43.2652 44.8661 43.2652H29.962V41.5163H45.9775ZM36.6516 25.6666C37.0162 26.2265 37.4732 27.0809 37.9192 27.9323C38.5694 29.1736 39.6234 30.87 39.5474 32.3216C39.4402 34.3696 37.906 35.9283 36.121 35.8029C34.3358 35.6777 32.9755 33.9158 33.0827 31.8678C33.157 30.4478 34.2476 29.09 34.9934 27.9905C35.5751 27.1327 36.1882 26.2232 36.6516 25.6666ZM30.1452 14.2891H42.4827C42.6049 14.2893 42.7221 14.338 42.8085 14.4244C42.8949 14.5108 42.9436 14.6279 42.9438 14.7502V16.7361H29.6842V14.7502C29.6844 14.6279 29.733 14.5108 29.8195 14.4244C29.9059 14.338 30.023 14.2893 30.1452 14.2891ZM31.689 10.033H40.939C41.2437 10.033 41.4923 10.2816 41.4923 10.5863V12.8138H31.1357V10.5863C31.136 10.4397 31.1944 10.2991 31.2981 10.1954C31.4018 10.0917 31.5424 10.0333 31.689 10.033ZM12.7904 39.5449V40.88C12.7904 41.1732 12.5505 41.4131 12.2574 41.4131H6.1608C5.86755 41.4131 5.62764 41.1732 5.62764 40.88V39.5449H12.7904Z"
+                fill="#1D5884"
+              />
+            </svg>
+            <p class="text-[#1D5884] text-[16px] md:text-[18px] font-medium">
+              Produk-produk yang dijual berkualitas tinggi dan telah lolos uji.
             </p>
           </div>
         </div>
       </section>
-      <section class="px-20 mt-24 mb-40">
-        <div class="flex items-center gap-16">
-          <div class="w-1/2">
+      <section class="md:px-20 px-4 mt-24 md:mb-40 mb-9">
+        <div
+          class="flex md:flex-nowrap flex-wrap-reverse items-center md:gap-16 gap-6"
+        >
+          <div
+            class="bg-[#1D5884] border-2 p-3 md:hidden block rounded-[12px] md:w-auto w-full"
+          >
+            <div class="flex justify-center text-white gap-3">
+              Pelajari tentang Skema Bisnis
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <mask
+                  id="mask0_587_261"
+                  style="mask-type: alpha"
+                  maskUnits="userSpaceOnUse"
+                  x="3"
+                  y="6"
+                  width="17"
+                  height="12"
+                >
+                  <path
+                    d="M19 12L14 7M19 12L14 17M19 12L9 12C7.33333 12 4 13 4 17"
+                    stroke="#151515"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </mask>
+                <g mask="url(#mask0_587_261)">
+                  <rect width="24" height="24" fill="white" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="md:w-1/2 w-[calc(100%-30px)] md:mr-0 mr-[30px]">
             <div
-              class="w-full h-full relative bg-[#EBD885] rounded-[32px] py-16 pl-10 max-h-[514px]"
+              class="w-full h-full relative bg-[#EBD885] rounded-[32px] md:py-16 py-9 pl-6 md:pl-10 md:max-h-[514px] max-h-[296px]"
             >
               <div
-                class="w-[340px] relative z-10 p-4 h-[210px] flex flex-col justify-end items-start rounded-2xl bg-[url(../images/card-2.png)] bg-cover bg-no-repeat bg-center"
+                class="md:w-[340px] w-[195px] relative z-10 p-4 md:h-[210px] h-[120px] flex flex-col justify-end items-start rounded-2xl bg-[url(../images/card-2.png)] bg-cover bg-no-repeat bg-center"
               >
                 <p class="py-[10px] pr-8 border-b border-black">Skema Binary</p>
               </div>
               <div
-                class="w-[340px] relative right-[-170px] top-[-32px] p-4 h-[210px] flex flex-col justify-end items-start rounded-2xl bg-[url(../images/card-1.png)] bg-cover bg-no-repeat bg-center"
+                class="md:w-[340px] w-[195px] relative md:right-[-170px] right-[-130px] top-[-32px] p-4 md:h-[210px] h-[120px] flex flex-col justify-end items-start rounded-2xl bg-[url(../images/card-1.png)] bg-cover bg-no-repeat bg-center"
               >
                 <p class="py-[10px] pr-8 border-b border-black">
                   Skema Matahari
@@ -272,19 +322,21 @@
               </div>
             </div>
           </div>
-          <div class="w-1/2 flex flex-col items-start">
-            <h2 class="__heading-3">
+          <div class="md:w-1/2 w-full flex flex-col items-start">
+            <h2 class="md:__heading-3 __heading-5">
               Temukan Peluang Luar Biasa Dengan Skema Bisnis Hybrid System Yang
               inovatif!
             </h2>
-            <p class="__subhead-2 mt-6">
+            <p class="__subhead-2 md:mt-6 mt-4">
               Dengan mengkombinasikan elemen-elemen yang terbukti dari skema
               binary dan matahari, sistem hybrid kami memungkinkan Anda untuk
               meraih peluang yang tak terbatas.
             </p>
-            <div class="bg-[#1D5884] border-2 p-3 rounded-[12px] mt-10">
-              <div class="flex text-white gap-3">
-                Bergabung Sekarang
+            <div
+              class="bg-[#1D5884] md:block hidden border-2 p-3 rounded-[12px] mt-10 md:w-auto w-full"
+            >
+              <div class="flex justify-center text-white gap-3">
+                Pelajari tentang Skema Bisnis
                 <svg
                   width="24"
                   height="24"
@@ -318,10 +370,10 @@
           </div>
         </div>
       </section>
-      <section class="px-20 py-16">
-        <div class="flex gap-16 items-center">
-          <h2 class="__heading-4 whitespace-nowrap">
-            Memiliki Perizinan SIUPL Dan <br />
+      <section class="md:px-20 px-4 py-16">
+        <div class="flex md:flex-nowrap flex-wrap md:gap-16 gap-3 items-center">
+          <h2 class="md:__heading-4 __heading-5 md:whitespace-nowrap">
+            Memiliki Perizinan SIUPL Dan <br class="hidden md:block" />
             Telah Tersertifikasi BPOM
           </h2>
           <p class="__subhead-2">
@@ -331,39 +383,78 @@
             yang legal, aman, dan terpercaya."
           </p>
         </div>
-        <div class="mt-12 gap-5 my-slider">
-          <div>
-            <img src="../../images/certificates/cr-1.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-2.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-3.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-4.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-5.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-5.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-5.png" alt="" />
-          </div>
-          <div>
-            <img src="../../images/certificates/cr-6.png" alt="" />
-          </div>
+        <ul
+          class="controls"
+          id="customize-controls"
+          aria-label="Carousel Navigation"
+          tabindex="0"
+        >
+          <li
+            class="prev"
+            data-controls="prev"
+            aria-controls="customize"
+            tabindex="-1"
+          >
+            <i class="fas fa-angle-left fa-5x"></i>
+          </li>
+          <li
+            class="next"
+            data-controls="next"
+            aria-controls="customize"
+            tabindex="-1"
+          >
+            <i class="fas fa-angle-right fa-5x"></i>
+          </li>
+        </ul>
+        <div class="md:mt-12 mt-6 my-slider">
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-1.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-2.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-3.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-4.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-5.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-5.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-5.png"
+            alt=""
+          />
+          <img
+            class="w-[300px]"
+            src="../../images/certificates/cr-6.png"
+            alt=""
+          />
         </div>
       </section>
-      <section class="px-20 py-40">
-        <h2 class="__heading-3 text-center">
+      <section class="md:px-20 px-4 md:py-40 py-24">
+        <h2 class="md:__heading-3 __heading-5 text-center">
           Inovasi Produk Berkualitas Tinggi Yang Akan Mengubah Cara Anda
           Memandang Kesehatan
         </h2>
-        <div class="grid grid-cols-2 gap-6 justify-between mt-8">
+        <div class="grid-cols-2 gap-6 justify-between mt-8 hidden md:grid">
           <div class="__card-product w-full">
             <div class="w-[300px] h-[300px] p-8 mx-auto">
               <img
@@ -539,25 +630,229 @@
             </div>
           </div>
         </div>
+        <div class="mt-[10px] block md:hidden my-slider-2">
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[78.4px] mx-auto object-center"
+                src="../../images/product/product-1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Whyme Men Hygiene Spray
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[60px] mx-auto object-center"
+                src="../../images/product/product-2.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Whyme Feminine Hygiene Spray
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[120px] mx-auto object-center"
+                src="../../images/product/product-3.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Maxlov Face & Body Serum
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[78.4px] object-center"
+                src="../../images/product/product-4.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Maxlov Lip Serum
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[140px] mx-auto object-center"
+                src="../../images/product/product-5.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Maxlov Beauty Gold Soap
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="__card-product w-full">
+            <div
+              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+            >
+              <img
+                class="object-contain w-[120px] mx-auto object-center"
+                src="../../images/product/product-6.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-between gap-4 flex-wrap p-5">
+              <p
+                class="__subhead-3 text-[#151515] pb-4 border-b border-black w-full"
+              >
+                Maxlov Collagen Drink
+              </p>
+              <div
+                class="w-full whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+              >
+                Lihat Benefit
+                <svg
+                  class="w-5 h-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="px-20">
-        <div class="border border-[#D3D3D3] rounded-3xl p-12">
-          <div class="text-[#1D5884] flex items-center gap-16">
-            <h2 class="__heading-3 flex-none w-[430px] font-medium">
+      <section class="md:px-20 px-4">
+        <div class="border border-[#D3D3D3] rounded-3xl md:p-12 p-5">
+          <div
+            class="text-[#1D5884] flex md:flex-nowrap flex-wrap items-center md:gap-16 gap-4"
+          >
+            <h2
+              class="md:__heading-3 __heading-5 md:flex-none w-[430px] font-bold"
+            >
               Belanja Paket Bisnis Sekarang Juga
             </h2>
-            <p class="shrink">
+            <p class="shrink __subhead-4 md:__subhead-2">
               Bergabunglah dengan ribuan mitra bisnis kami yang telah mengambil
               langkah ini dan meraih hasil luar biasa. Belanja paket bisnis
               sekarang dan jadilah bagian dari perjalanan menuju kesuksesan
               bersama kami.
             </p>
           </div>
-          <div class="flex gap-12 mt-24">
-            <div class="px-6 pb-[40px] pt-14 bg-[#F8FAFB] rounded-3xl relative">
+          <div class="flex md:flex-nowrap flex-wrap gap-12 mt-24">
+            <div class="px-6 pb-[40px] pt-14 bg-[#F8FAFB] rounded-2xl relative">
               <div class="w-full flex items-center justify-center">
                 <div
-                  class="bg-[#EBD885] absolute top-[-23px] __subhead-1 py-[10px] px-[40px] text-center w-auto rounded-full"
+                  class="bg-[#EBD885] absolute top-[-23px] md:__subhead-1 __subhead-3 py-[10px] px-[40px] text-center w-auto rounded-full"
                 >
                   REGULER
                 </div>
@@ -572,11 +867,11 @@
               </ul>
             </div>
             <div
-              class="px-6 pb-[40px] pt-14 bg-[#1D5884] border-2 border-[#1D5884] rounded-3xl text-white relative"
+              class="px-6 pb-[40px] pt-14 bg-[#1D5884] border-2 border-[#1D5884] rounded-2xl text-white relative"
             >
               <div class="w-full flex items-center justify-center">
                 <div
-                  class="bg-[#EBD885] absolute top-[-23px] __subhead-1 py-[10px] px-[40px] text-center w-auto rounded-full"
+                  class="bg-[#EBD885] text-[#151515] absolute top-[-23px] md:__subhead-1 __subhead-3 py-[10px] px-[40px] text-center w-auto rounded-full"
                 >
                   PREMIUM
                 </div>
@@ -593,12 +888,16 @@
           </div>
         </div>
       </section>
-      <section class="px-20 py-[100px] bg-[#F8FAFB] mt-[120px]">
-        <h3 class="__heading-3 text-center max-w-[90%] mx-auto">
+      <section
+        class="md:px-20 px-4 md:py-[100px] pt-[100px] pb-[40px] md:bg-[#F8FAFB] md:mt-[120px]"
+      >
+        <h3 class="md:__heading-3 __heading-6 text-center max-w-[90%] mx-auto">
           Mulai Perjalanan Anda Dengan Arahan Langsung Dari Mentor
           Berpengalaman!
         </h3>
-        <div class="flex gap-20 justify-center mt-14">
+        <div
+          class="flex flex-wrap md:flex-nowrap gap-20 justify-center md:mt-14 mt-10"
+        >
           <div class="w-64">
             <div class="rounded-full overflow-hidden w-64 h-64 border">
               <img
@@ -608,30 +907,36 @@
               />
             </div>
             <div
-              class="__subhead-2 px-8 py-[10px] mt-8 text-[#1D5884] rounded-full border border-[#1D5884]"
+              class="__subhead-2 px-8 py-[10px] mt-8 text-[#1D5884] rounded-full border text-center border-[#1D5884]"
             >
               Coach Alfian Himalaya
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-20 gap-y-14">
-            <div>
-              <p class="__subhead-2">Peringkat</p>
-              <h4 class="__heading-4">Diamond</h4>
+          <div
+            class="w-full md:w-auto flex flex-col md:items-start items-center"
+          >
+            <div class="grid md:grid-cols-2 md:gap-20 gap-8 gap-y-14">
+              <div class="md:text-left text-center">
+                <p class="__subhead-2">Peringkat</p>
+                <h4 class="__heading-4">Diamond</h4>
+              </div>
+              <div class="md:text-left text-center">
+                <p class="__subhead-2">Sponsoring</p>
+                <h4 class="__heading-4">n/a</h4>
+              </div>
+              <div class="md:text-left text-center">
+                <p class="__subhead-2">Total Bonus</p>
+                <h4 class="__heading-4">Rp ...</h4>
+              </div>
+              <div class="md:text-left text-center">
+                <p class="__subhead-2">Bonus Harian</p>
+                <h4 class="__heading-4">Rp ...</h4>
+              </div>
             </div>
-            <div>
-              <p class="__subhead-2">Sponsoring</p>
-              <h4 class="__heading-4">n/a</h4>
-            </div>
-            <div>
-              <p class="__subhead-2">Total Bonus</p>
-              <h4 class="__heading-4">Rp ...</h4>
-            </div>
-            <div>
-              <p class="__subhead-2">Bonus Harian</p>
-              <h4 class="__heading-4">Rp ...</h4>
-            </div>
-            <div class="bg-[#1D5884] border-2 p-3 rounded-[12px]">
-              <div class="flex text-white gap-3">
+            <div
+              class="bg-[#1D5884] border-2 p-3 rounded-[12px] md:w-auto w-full md:mt-16 mt-10"
+            >
+              <div class="flex text-white gap-3 justify-center">
                 Hubungi Sekarang
                 <svg
                   width="24"
@@ -667,7 +972,7 @@
         </div>
       </section>
     </main>
-    <footer class="py-6 px-20">
+    <footer class="py-6 md:px-20 px-4 border-t">
       <p class="__label-1 text-center">
         Copyright 2023 Alfian Himalaya | ALN Citra Network. All Right Reserved.
       </p>
@@ -676,15 +981,50 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script type="module">
       var slider = tns({
+        center: true,
+        loop: false,
+        slideBy: 1,
         container: ".my-slider",
-        items: 5,
-        gutter: 10,
+        controls: false,
+        center: true,
         speed: 300,
         mouseDrag: true,
         autoplay: true,
         autoplayHoverPause: false,
         autoplayTimeout: 3500,
         swipeAngle: false,
+        responsive: {
+          350: {
+            items: 2,
+            gutter: 10,
+          },
+          500: {
+            items: 5,
+            gutter: 10,
+          },
+        },
+      });
+
+      var slider = tns({
+        container: ".my-slider-2",
+        responsive: {
+          350: {
+            items: 1,
+            gutter: 50,
+          },
+          500: {
+            items: 5,
+            gutter: 10,
+          },
+        },
+        center: true,
+        speed: 300,
+        mouseDrag: true,
+        autoplay: true,
+        autoplayHoverPause: false,
+        autoplayTimeout: 3500,
+        swipeAngle: false,
+        controls: false,
       });
     </script>
   </body>

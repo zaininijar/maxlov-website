@@ -4,31 +4,49 @@
 
 @layer components {
   .__main-navbar {
-    @apply fixed top-0 z-40 w-full backdrop-blur flex-none transition-all duration-300 right-0 left-0 px-5 lg:px-20 py-3 flex justify-between items-center bg-white;
+    @apply fixed top-[2px] z-40 w-full backdrop-blur flex-none transition-all duration-300 right-0 left-0 px-4 lg:px-20 md:py-3 py-2 flex justify-between items-center bg-white;
+  }
+  .__heading-2 {
+    @apply text-[#151515] md:text-6xl font-bold md:leading-[80px] text-[32px] leading-[44px] tracking-[-1.6px];
   }
   .__heading-3 {
-    @apply text-5xl font-bold tracking-[-2.4px] leading-[64px];
+    @apply md:text-5xl font-bold tracking-[-2.4px] md:leading-[64px] text-[32px] leading-[44px];
   }
   .__heading-4 {
-    @apply text-[40px] font-bold tracking-[-2px] leading-[56px] text-[#151515];
+    @apply md:text-[40px] font-bold tracking-[-2px] md:leading-[56px] text-[#151515] text-[32px] leading-[44px];
+  }
+  .__heading-5 {
+    @apply text-[32px] font-bold leading-[44px] tracking-[-1.6px];
+  }
+  .__heading-6 {
+    @apply text-[26px] font-bold leading-[32px] tracking-[-1.3px];
+  }
+  .__subhead-2 {
+    @apply text-[18px] font-medium leading-[28px] tracking-[-0.18px];
   }
   .__subhead-3 {
     @apply text-[16px] font-medium leading-5 tracking-widest;
   }
+  .__subhead-4 {
+    @apply text-[14px] font-medium leading-[18px] tracking-[-0.14px];
+  }
   .__normal-card {
-    @apply border-2 border-[#1D5884] p-6 flex flex-col gap-6 rounded-3xl w-1/3;
+    @apply border-2 border-[#1D5884] md:p-6 p-[20px] flex flex-col gap-6 rounded-3xl md:w-1/3 w-full;
   }
   .__card-product {
-    @apply bg-[#F8FAFB] flex flex-col justify-between rounded-3xl px-8 pb-8 pt-16 gap-12;
+    @apply bg-[#F8FAFB] flex flex-col justify-between rounded-3xl md:px-8 md:pb-8 md:pt-16 gap-12;
   }
   .__subhead-1 {
     @apply text-[#151515] font-medium text-[22px] tracking-[-0.22px] leading-[26px];
   }
   .__subhead-2 {
-    @apply text-[#A6A6A6] font-medium text-[18px] tracking-[-0.18px] leading-[28px];
+    @apply text-[#A6A6A6] font-medium md:text-[18px] tracking-[-0.18px] md:leading-[28px] text-[14px] leading-[18px];
   }
   .__label-1 {
-    @apply text-sm leading-4 tracking-[1.12px] font-medium;
+    @apply text-sm leading-4 tracking-[1.12px] font-medium text-[#151515];
+  }
+  .__label-2 {
+    @apply text-xs leading-4 tracking-[0.96px] font-medium text-[#151515];
   }
 }
 
@@ -36,14 +54,10 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-#tns1-ow > div.tns-controls {
-  display: none;
-}
-
-#tns1-ow > div.tns-nav {
-  display: none;
-}
-
 #tns1-ow > button {
+  display: none;
+}
+
+#tns2-ow > button {
   display: none;
 }
