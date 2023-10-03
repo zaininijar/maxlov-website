@@ -570,7 +570,7 @@ video {
 
 .__main-navbar {
   position: fixed;
-  top: 0px;
+  top: -0.25rem;
   right: 0px;
   left: 0px;
   z-index: 40;
@@ -595,6 +595,7 @@ video {
 
 @media (min-width: 768px) {
   .__main-navbar {
+    top: 0px;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
@@ -845,6 +846,18 @@ video {
   z-index: 50;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -914,6 +927,14 @@ video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -1058,6 +1079,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .max-w-\[90\%\] {
@@ -1213,6 +1242,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1283,6 +1316,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black\/10 {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
 .bg-\[url\(\.\.\/images\/card-1\.png\)\] {
   background-image: url(../images/card-1.png);
 }
@@ -1332,6 +1373,18 @@ video {
 
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-4 {
@@ -1525,6 +1578,10 @@ body {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (min-width: 768px) {
   .md\:__heading-3 {
     font-size: 32px;
@@ -1704,6 +1761,10 @@ body {
     width: auto;
   }
 
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .md\:flex-none {
     flex: none;
   }
@@ -1755,6 +1816,10 @@ body {
 
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
   }
 
   .md\:px-20 {
