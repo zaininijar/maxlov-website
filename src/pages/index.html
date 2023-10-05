@@ -11,9 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
       rel="stylesheet"
     />
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+      href="../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/owl.carousel/dist/assets/owl.theme.green.min.css"
     />
   </head>
   <body class="dm-sans">
@@ -150,7 +156,8 @@
             memberikan Anda panduan, strategi, dan solusi finansial terbaik.
           </h6>
           <div class="flex flex-wrap md:gap-6 gap-4 md:mt-10 mt-8">
-            <div
+            <a
+              href="https://wa.link/0rlk16"
               class="bg-[#1D5884] border-2 p-3 rounded-[12px] md:w-auto w-full"
             >
               <div class="flex text-white gap-3 justify-center">
@@ -184,7 +191,7 @@
                   </g>
                 </svg>
               </div>
-            </div>
+            </a>
             <a
               href="#"
               class="border-2 p-3 rounded-[12px] md:w-auto w-full text-center"
@@ -215,7 +222,7 @@
           </div>
         </div>
       </section>
-      <section class="md:pt-40 pt-[50px pb-0 md:pb-28 md:px-20 px-4">
+      <section class="md:pt-40 pt-[50px] pb-0 md:pb-28 md:px-20 px-4">
         <h2 class="text-center __heading-3">
           Apa saja sih kelebihan dari ALN Citra Network?
         </h2>
@@ -292,7 +299,8 @@
         <div
           class="flex md:flex-nowrap flex-wrap-reverse items-center md:gap-16 gap-6"
         >
-          <div
+          <a
+            href="skema-bisnis.html"
             class="bg-[#1D5884] border-2 p-3 md:hidden block rounded-[12px] md:w-auto w-full"
           >
             <div class="flex justify-center text-white gap-3">
@@ -326,7 +334,7 @@
                 </g>
               </svg>
             </div>
-          </div>
+          </a>
           <div class="md:w-1/2 w-[calc(100%-30px)] md:mr-0 mr-[30px]">
             <div
               class="w-full h-full relative bg-[#EBD885] rounded-[32px] md:py-16 py-9 pl-6 md:pl-10 md:max-h-[514px] max-h-[296px]"
@@ -361,7 +369,8 @@
               binary dan matahari, sistem hybrid kami memungkinkan Anda untuk
               meraih peluang yang tak terbatas.
             </p>
-            <div
+            <a
+              href="skema-bisnis.html"
               class="bg-[#1D5884] md:block hidden border-2 p-3 rounded-[12px] mt-10 md:w-auto w-full"
             >
               <div class="flex justify-center text-white gap-3">
@@ -395,7 +404,7 @@
                   </g>
                 </svg>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -435,44 +444,44 @@
             <i class="fas fa-angle-right fa-5x"></i>
           </li>
         </ul>
-        <div class="md:mt-12 mt-6 my-slider">
+        <div class="md:mt-12 mt-6 owl-carousel owl-theme">
           <img
-            class="w-[300px]"
+            clmd:ass="w-[ w-[260px]300px] item"
             src="../../images/certificates/cr-1.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-2.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-3.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-4.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-5.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-5.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-5.png"
             alt=""
           />
           <img
-            class="w-[300px]"
+            class="md:w-[300px] w-[260px] item"
             src="../../images/certificates/cr-6.png"
             alt=""
           />
@@ -500,7 +509,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -543,7 +552,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -563,12 +572,14 @@
               class="border border-[#1D5884] rounded-xl p-4 -mt-6 hidden"
             >
               <ul class="list-inside list-disc">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Menyehatkan Miss V</li>
+                <li>Mencegah Miss V Kering</li>
+                <li>Mengencangkan Miss V</li>
+                <li>Mengatasi Keputihan dan Gatal</li>
+                <li>Menghilangkan Bau Tidak Sedap</li>
+                <li>Menurunkan Intensitas Nyeri Haid</li>
+                <li>Membantu Melancarkan Haid</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
@@ -586,7 +597,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -606,12 +617,16 @@
               class="border border-[#1D5884] rounded-xl p-4 -mt-6 hidden"
             >
               <ul class="list-inside list-disc">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
+                <li>Mencerahkan & Melembabkan Kulit</li>
+                <li>Menutrisi Kulit Hingga Kelapisan Dalam</li>
+                <li>Menjaga Elastisitas Kulit</li>
+                <li>Merangsang Pertumbuhan Collagen</li>
+                <li>
+                  Menjaga Kulit dari Paparan Sinar UV juga Radiasi Blue Light
+                </li>
                 <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Meningkatkan massa otot</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
@@ -629,7 +644,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -649,12 +664,19 @@
               class="border border-[#1D5884] rounded-xl p-4 -mt-6 hidden"
             >
               <ul class="list-inside list-disc">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
+                <li>Mengembalikan Kekenyalan dan Kelembapan Bibir</li>
+                <li>Mengembalikan tekstur dan menghaluskan bibir</li>
+                <li>Mencerahkan dan mengurangi hiperpigmentasi pada bibir</li>
+                <li>
+                  Mempercepat regenerasi kulit dan mencegah iritasi pada bibir
+                  yang pecah-pecah
+                </li>
+                <li>
+                  Menjaga Kulit dari Paparan Sinar UV juga Radiasi Blue Light
+                </li>
                 <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Meningkatkan massa otot</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
@@ -672,7 +694,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -692,12 +714,14 @@
               class="border border-[#1D5884] rounded-xl p-4 -mt-6 hidden"
             >
               <ul class="list-inside list-disc">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Dapat Membantu Mencerahkan Warna Kulit</li>
+                <li>Membantu Membersihkan Kotoran Pada Pori</li>
+                <li>Membantu Meningkatkan Tone Warna Kulit</li>
+                <li>Membantu Menutrisi Kulit</li>
+                <li>Menjaga Elastisitas dan Kelembapan Kulit</li>
+                <li>Memiliki Efek Anti-Oksidan</li>
+                <li>Membantu Mereduksi Merkuri Berbahaya</li>
+                <li>Membantu Menghilangkan Flek Wajah</li>
               </ul>
             </div>
           </div>
@@ -715,7 +739,7 @@
               </p>
               <div
                 id="show-benefit"
-                class="w-[30%] whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
+                class="w-[30%] cursor-pointer whitespace-nowrap flex gap-2 items-center rounded-[12px] bg-[#1D5884] justify-center px-4 py-3 text-white"
               >
                 Lihat Benefit
                 <svg
@@ -735,26 +759,33 @@
               class="border border-[#1D5884] rounded-xl p-4 -mt-6 hidden"
             >
               <ul class="list-inside list-disc">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Membantu menjaga imunitas tubuh</li>
+                <li>Menjaga kesehatan tulang dan lambung</li>
+                <li>Dapat meregenerasi sel</li>
+                <li>Dapat mencerahkan dan melembabkan kulit</li>
+                <li>
+                  Anti penuaan, anti oksidan, anti inflamasi, anti diabetes dan
+                  antimikroba
+                </li>
+                <li>Meningkatkan kecerdasan otak anak</li>
+                <li>Dapat menjaga kesehatan jantung</li>
+                <li>Membantu Menghilangkan Flek Wajah</li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="mt-[10px] block md:hidden my-slider-2">
+        <div class="mt-[10px] block md:hidden owl-carousel owl-theme">
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[78.4px] mx-auto object-center"
-                src="../../images/product/product-1.png"
-                alt=""
-              />
+              <div class="w-[78.4px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-1.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -795,13 +826,15 @@
           </div>
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[60px] mx-auto object-center"
-                src="../../images/product/product-2.png"
-                alt=""
-              />
+              <div class="w-[60px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-2.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -831,24 +864,28 @@
               class="border border-[#1D5884] rounded-xl p-4 m-5 hidden"
             >
               <ul class="list-inside list-disc text-xs">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Menyehatkan Miss V</li>
+                <li>Mencegah Miss V Kering</li>
+                <li>Mengencangkan Miss V</li>
+                <li>Mengatasi Keputihan dan Gatal</li>
+                <li>Menghilangkan Bau Tidak Sedap</li>
+                <li>Menurunkan Intensitas Nyeri Haid</li>
+                <li>Membantu Melancarkan Haid</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[120px] mx-auto object-center"
-                src="../../images/product/product-3.png"
-                alt=""
-              />
+              <div class="w-[120px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-3.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -878,24 +915,30 @@
               class="border border-[#1D5884] rounded-xl p-4 m-5 hidden"
             >
               <ul class="list-inside list-disc text-xs">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
+                <li>Mencerahkan & Melembabkan Kulit</li>
+                <li>Menutrisi Kulit Hingga Kelapisan Dalam</li>
+                <li>Menjaga Elastisitas Kulit</li>
+                <li>Merangsang Pertumbuhan Collagen</li>
+                <li>
+                  Menjaga Kulit dari Paparan Sinar UV juga Radiasi Blue Light
+                </li>
                 <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Meningkatkan massa otot</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[78.4px] object-center"
-                src="../../images/product/product-4.png"
-                alt=""
-              />
+              <div class="w-[78.4px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-4.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -925,24 +968,33 @@
               class="border border-[#1D5884] rounded-xl p-4 m-5 hidden"
             >
               <ul class="list-inside list-disc text-xs">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
+                <li>Mengembalikan Kekenyalan dan Kelembapan Bibir</li>
+                <li>Mengembalikan tekstur dan menghaluskan bibir</li>
+                <li>Mencerahkan dan mengurangi hiperpigmentasi pada bibir</li>
+                <li>
+                  Mempercepat regenerasi kulit dan mencegah iritasi pada bibir
+                  yang pecah-pecah
+                </li>
+                <li>
+                  Menjaga Kulit dari Paparan Sinar UV juga Radiasi Blue Light
+                </li>
                 <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Meningkatkan massa otot</li>
+                <li>Meningkatkan massa otot</li>
               </ul>
             </div>
           </div>
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[140px] mx-auto object-center"
-                src="../../images/product/product-5.png"
-                alt=""
-              />
+              <div class="w-[140px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-5.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -972,24 +1024,28 @@
               class="border border-[#1D5884] rounded-xl p-4 m-5 hidden"
             >
               <ul class="list-inside list-disc text-xs">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Dapat Membantu Mencerahkan Warna Kulit</li>
+                <li>Membantu Membersihkan Kotoran Pada Pori</li>
+                <li>Membantu Meningkatkan Tone Warna Kulit</li>
+                <li>Membantu Menutrisi Kulit</li>
+                <li>Menjaga Elastisitas dan Kelembapan Kulit</li>
+                <li>Memiliki Efek Anti-Oksidan</li>
+                <li>Membantu Mereduksi Merkuri Berbahaya</li>
+                <li>Membantu Menghilangkan Flek Wajah</li>
               </ul>
             </div>
           </div>
           <div class="__card-product w-full">
             <div
-              class="w-[300px] h-[300px] p-[10px] mx-auto flex items-center justify-center"
+              class="p-[10px] w-full h-[240px] mx-auto flex items-center justify-center"
             >
-              <img
-                class="object-contain w-[120px] mx-auto object-center"
-                src="../../images/product/product-6.png"
-                alt=""
-              />
+              <div class="w-[120px]">
+                <img
+                  class="object-contain w-full mx-auto object-center"
+                  src="../../images/product/product-6.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="flex items-center justify-between gap-4 flex-wrap p-5">
               <p
@@ -1019,12 +1075,17 @@
               class="border border-[#1D5884] rounded-xl p-4 m-5 hidden"
             >
               <ul class="list-inside list-disc text-xs">
-                <li>Meningkatkan Massa Otot</li>
-                <li>Memperlancar Aliran Urine</li>
-                <li>Melancarkan Sirkulasi Darah Sistem Reproduksi</li>
-                <li>Meningkatkan Stabilitas Seksual</li>
-                <li>Menjaga Stamina dan Energi</li>
-                <li>Efek Anti-inflamasi dan Antimikroba</li>
+                <li>Membantu menjaga imunitas tubuh</li>
+                <li>Menjaga kesehatan tulang dan lambung</li>
+                <li>Dapat meregenerasi sel</li>
+                <li>Dapat mencerahkan dan melembabkan kulit</li>
+                <li>
+                  Anti penuaan, anti oksidan, anti inflamasi, anti diabetes dan
+                  antimikroba
+                </li>
+                <li>Meningkatkan kecerdasan otak anak</li>
+                <li>Dapat menjaga kesehatan jantung</li>
+                <li>Membantu Menghilangkan Flek Wajah</li>
               </ul>
             </div>
           </div>
@@ -1048,7 +1109,9 @@
             </p>
           </div>
           <div class="flex md:flex-nowrap flex-wrap gap-12 mt-24">
-            <div class="px-6 pb-[40px] pt-14 bg-[#F8FAFB] rounded-2xl relative">
+            <div
+              class="px-6 pb-[40px] pt-14 bg-[#F8FAFB] rounded-2xl relative w-full"
+            >
               <div class="w-full flex items-center justify-center">
                 <div
                   class="bg-[#EBD885] absolute top-[-23px] md:__subhead-1 __subhead-3 py-[10px] px-[40px] text-center w-auto rounded-full"
@@ -1066,7 +1129,7 @@
               </ul>
             </div>
             <div
-              class="px-6 pb-[40px] pt-14 bg-[#1D5884] border-2 border-[#1D5884] rounded-2xl text-white relative"
+              class="px-6 pb-[40px] pt-14 bg-[#1D5884] border-2 border-[#1D5884] rounded-2xl text-white relative w-full"
             >
               <div class="w-full flex items-center justify-center">
                 <div
@@ -1078,10 +1141,8 @@
               <h2 class="__heading-3 text-center">Rp 1.000.000</h2>
               <div class="my-6 border-b border-[#E1E1E1]"></div>
               <ul class="list-disc list-inside __subhead-2 text-white">
-                <li>Dapatkan 1 Poin</li>
-                <li>
-                  Dapatkan 1 Paket Whyme/ 1 Paket Shabine (pilih salah satu)
-                </li>
+                <li>Dapatkan 4 Poin</li>
+                <li>Dapatkan 4 Paket Whyme</li>
               </ul>
             </div>
           </div>
@@ -1135,7 +1196,10 @@
             <div
               class="bg-[#1D5884] border-2 p-3 rounded-[12px] md:w-auto w-full md:mt-16 mt-10"
             >
-              <div class="flex text-white gap-3 justify-center">
+              <a
+                href="https://wa.link/0rlk16"
+                class="flex text-white gap-3 justify-center"
+              >
                 Hubungi Sekarang
                 <svg
                   width="24"
@@ -1165,7 +1229,7 @@
                     <rect width="24" height="24" fill="white" />
                   </g>
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -1177,53 +1241,24 @@
       </p>
     </footer>
     <script src="../js/global.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script type="module">
-      var slider = tns({
-        center: true,
-        loop: false,
-        slideBy: 1,
-        container: ".my-slider",
-        controls: false,
-        center: true,
-        speed: 300,
-        mouseDrag: true,
-        autoplay: true,
-        autoplayHoverPause: false,
-        autoplayTimeout: 3500,
-        swipeAngle: false,
-        responsive: {
-          350: {
-            items: 2,
-            gutter: 10,
-          },
-          500: {
-            items: 5,
-            gutter: 10,
-          },
-        },
-      });
 
-      var slider = tns({
-        container: ".my-slider-2",
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
         responsive: {
-          350: {
+          0: {
             items: 1,
-            gutter: 50,
           },
-          500: {
+          600: {
+            items: 3,
+          },
+          1000: {
             items: 5,
-            gutter: 10,
           },
         },
-        center: true,
-        speed: 300,
-        mouseDrag: true,
-        autoplay: true,
-        autoplayHoverPause: false,
-        autoplayTimeout: 3500,
-        swipeAngle: false,
-        controls: false,
       });
     </script>
   </body>
